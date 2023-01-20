@@ -21,4 +21,10 @@ public class StringCalculatorTest {
     public void sumsTwoNumbersSeparatedByComa() {
         assertThat(StringCalculator.sum("3,2")).isEqualTo(5);
     }
+
+    @Test
+    public void sumsThreeNumbersSeparatedByComa() {
+        assertThat(StringCalculator.sum("3,2,1")).isEqualTo(6);
+    }
+
 }

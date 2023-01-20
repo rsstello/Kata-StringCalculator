@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 3 green">
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 3 refactor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.sumsTwoNumbersSeparatedByComa">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.sumsThreeNumbersSeparatedByComa">
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,6 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCalculatorTest.sumsThreeNumbersSeparatedByComa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-StringCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="METHOD_NAME" value="sumsThreeNumbersSeparatedByComa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringCalculatorTest.sumsTwoNumbersSeparatedByComa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.sumsThreeNumbersSeparatedByComa" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsTwoNumbersSeparatedByComa" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsSingleNumber" />
         <item itemvalue="JUnit.StringCalculatorTest" />
@@ -158,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674228614104</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test 3 refactor">
+      <created>1674229332386</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674229332386</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +198,7 @@
     <MESSAGE value="Test 2.1 refactor" />
     <MESSAGE value="Test 3 red" />
     <MESSAGE value="Test 3 green" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 3 green" />
+    <MESSAGE value="Test 3 refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 3 refactor" />
   </component>
 </project>
