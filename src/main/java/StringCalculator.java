@@ -8,7 +8,7 @@ public class StringCalculator {
         if (input.isEmpty())
             return 0;
         else{
-            Stream<String> numbers = stream(input.split(","));
+            Stream<String> numbers = stream(input.split(",|\n"));
             return numbers.mapToInt(Integer::parseInt).sum();
         }
 
