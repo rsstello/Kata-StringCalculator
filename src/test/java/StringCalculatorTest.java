@@ -39,6 +39,6 @@ public class StringCalculatorTest {
 
     @Test
     public void usesDelimiterSpecified() {
-        assertThat(StringCalculator.sum("//;\n1,2")).isEqualTo(3);
+        assertThat(StringCalculator.sum("//;\n1;2")).isEqualTo(3);
     }
 }
