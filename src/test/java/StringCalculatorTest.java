@@ -14,5 +14,6 @@ public class StringCalculatorTest {
     @Test
     public void sumsSingleNumber() {
         assertThat(StringCalculator.sum("5")).isEqualTo(5);
+        assertThat(StringCalculator.sum("42")).isEqualTo(42);
     }
 }
