@@ -27,4 +27,9 @@ public class StringCalculatorTest {
         assertThat(StringCalculator.sum("3,2,1")).isEqualTo(6);
     }
 
+    @Test
+    public void sumsNumberDelimitedByNewLine() {
+        assertThat(StringCalculator.sum("1\n2")).isEqualTo(3);
+    }
+
 }
