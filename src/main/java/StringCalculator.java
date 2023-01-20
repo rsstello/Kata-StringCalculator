@@ -7,10 +7,14 @@ public class StringCalculator {
     public static int sum(String input) {
         if (input.isEmpty())
             return 0;
-        else{
+
+        String delimiter = ",|\n";
+        if (input.startsWith("//")) {
+            String[] parts = input.split("\n", 2);
+            delimiter = parts[0].substring(2);
+            input = parts[1];
+        }
             Stream<String> numbers = stream(input.split(",|\n"));
             return numbers.mapToInt(Integer::parseInt).sum();
         }
-
     }
-}

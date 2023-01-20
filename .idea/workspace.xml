@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 5 red">
+    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 7 red">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674229608264</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Test 5 green">
+      <created>1674229666501</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674229666501</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Test 6 green (works as 5)">
+      <created>1674229771305</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674229771305</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Test 7 red">
+      <created>1674229913436</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674229913436</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +240,9 @@
     <MESSAGE value="Test 3 refactor" />
     <MESSAGE value="Test 4 green (works with test 3 changes)" />
     <MESSAGE value="Test 5 red" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 5 red" />
+    <MESSAGE value="Test 5 green" />
+    <MESSAGE value="Test 6 green (works as 5)" />
+    <MESSAGE value="Test 7 red" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 7 red" />
   </component>
 </project>
