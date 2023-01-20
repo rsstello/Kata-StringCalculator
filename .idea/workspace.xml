@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 7 refactor">
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
+    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 8 red">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674232021739</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Test 8 red">
+      <created>1674232345124</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674232345124</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +266,7 @@
     <MESSAGE value="Test 7 red" />
     <MESSAGE value="Test 7 green" />
     <MESSAGE value="Test 7 refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 7 refactor" />
+    <MESSAGE value="Test 8 red" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 8 red" />
   </component>
 </project>

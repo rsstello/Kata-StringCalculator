@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static java.util.Arrays.stream;
@@ -15,10 +16,21 @@ public class StringCalculator {
     }
 
     private int sum() {
-        return Arrays.stream(numbers.split(delimiter))
-                .mapToInt(Integer::parseInt)
-                .sum();
+        if (getNumber().anyMatch(n -> n < 0)) {
+            throw new IllegalArgumentException();
+        }
+        return getNumber().sum();
     }
+     private IntStream getNumber() {
+        return Arrays.stream(numbers.split(delimiter))
+                .mapToInt(Integer::parseInt);
+     }
+
+
+//        return Arrays.stream(numbers.split(delimiter))
+//                .mapToInt(Integer::parseInt)
+//                .sum();
+
 
     public static int sum(String input) {
         if (input.isEmpty())
