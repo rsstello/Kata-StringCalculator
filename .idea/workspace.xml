@@ -37,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.usesDelimiterSpecified">
     <configuration name="StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,16 +53,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
       <option name="METHOD_NAME" value="sumsNumberDelimitedByNewLine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCalculatorTest.sumsSingleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kata-StringCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="sumsSingleNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,13 +78,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCalculatorTest.usesDelimiterSpecified" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-StringCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="METHOD_NAME" value="usesDelimiterSpecified" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.usesDelimiterSpecified" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsNumberDelimitedByNewLine" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsThreeNumbersSeparatedByComa" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsTwoNumbersSeparatedByComa" />
-        <item itemvalue="JUnit.StringCalculatorTest.sumsSingleNumber" />
       </list>
     </recent_temporary>
   </component>

@@ -36,4 +36,9 @@ public class StringCalculatorTest {
     public void sumsNumberDelimitedByComaOrNewLine() {
         assertThat(StringCalculator.sum("1,2\n3")).isEqualTo(6);
     }
+
+    @Test
+    public void usesDelimiterSpecified() {
+        assertThat(StringCalculator.sum("//;\n1;2")).isEqualTo(3);
+    }
 }
