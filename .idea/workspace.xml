@@ -37,12 +37,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.sumsNumberDelimitedByNewLine">
-    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine">
+    <configuration name="StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="sumsNumberDelimitedByComaOrNewLine" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsNumberDelimitedByNewLine" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsThreeNumbersSeparatedByComa" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsTwoNumbersSeparatedByComa" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsSingleNumber" />
-        <item itemvalue="JUnit.StringCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
