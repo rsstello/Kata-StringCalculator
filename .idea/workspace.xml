@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 7 green">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
+    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 7 refactor">
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.usesDelimiterSpecified">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.throwsOnNegativeNumber">
     <configuration name="StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,11 +68,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.sumsTwoNumbersSeparatedByComa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.throwsOnNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-StringCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="sumsTwoNumbersSeparatedByComa" />
+      <option name="METHOD_NAME" value="throwsOnNegativeNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.throwsOnNegativeNumber" />
         <item itemvalue="JUnit.StringCalculatorTest.usesDelimiterSpecified" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsNumberDelimitedByComaOrNewLine" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsNumberDelimitedByNewLine" />
         <item itemvalue="JUnit.StringCalculatorTest.sumsThreeNumbersSeparatedByComa" />
-        <item itemvalue="JUnit.StringCalculatorTest.sumsTwoNumbersSeparatedByComa" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674231241863</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Test 7 refactor">
+      <created>1674232021739</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674232021739</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +257,7 @@
     <MESSAGE value="Test 6 green (works as 5)" />
     <MESSAGE value="Test 7 red" />
     <MESSAGE value="Test 7 green" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 7 green" />
+    <MESSAGE value="Test 7 refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 7 refactor" />
   </component>
 </project>

@@ -41,4 +41,9 @@ public class StringCalculatorTest {
     public void usesDelimiterSpecified() {
         assertThat(StringCalculator.sum("//;\n1;2")).isEqualTo(3);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void throwsOnNegativeNumber() {
+     StringCalculator.sum("-3");
+    }
 }
