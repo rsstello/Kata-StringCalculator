@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 1 refactor">
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
+    <list default="true" id="1b89642d-0130-4f97-a22a-60f2b79cd235" name="Changes" comment="Test 2.1 red">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +71,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StringCalculatorTest.sumsSingleNumber" />
-        <item itemvalue="JUnit.StringCalculatorTest.sumsEmptyStringToZero" />
         <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.sumsEmptyStringToZero" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +99,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674227930634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test 2 red">
+      <created>1674227956879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674227956879</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test 2 green">
+      <created>1674227998944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674227998944</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test 2 refactor">
+      <created>1674228058964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674228058964</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test 2.1 red">
+      <created>1674228148876</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674228148876</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +144,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test 1 green" />
     <MESSAGE value="Test 1 refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 1 refactor" />
+    <MESSAGE value="Test 2 red" />
+    <MESSAGE value="Test 2 green" />
+    <MESSAGE value="Test 2 refactor" />
+    <MESSAGE value="Test 2.1 red" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 2.1 red" />
   </component>
 </project>
