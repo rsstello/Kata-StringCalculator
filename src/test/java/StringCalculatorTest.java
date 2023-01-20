@@ -10,4 +10,9 @@ public class StringCalculatorTest {
     public void sumsEmptyStringToZero() {
         assertThat(StringCalculator.sum("")).isEqualTo(0);
     }
+
+    @Test
+    public void sumsSingleNumber() {
+        assertThat(StringCalculator.sum("5")).isEqualTo(5);
+    }
 }
