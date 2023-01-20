@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class StringCalculator {
+public class StringCalculator {
+    public static int sum(String input) {
+        return 0;
+    }
 }
